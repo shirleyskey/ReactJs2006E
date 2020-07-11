@@ -1,0 +1,25 @@
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+//Base
+@import 'base/normalize';
+@import 'base/typography';
+//Components
+@import 'components/buttons';
+@import 'components/carousel';
+@import 'components/slider';
+//Layout
+@import 'layout/footer';
+@import 'layout/forms';
+@import 'layout/grid';
+@import 'layout/header';
+
+@import 'layout/navigation';
+@import 'layout/sidebar';
+//vendors
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+// Page
+@import 'pages/about';
+@import 'pages/contact';
+@import 'pages/home';
