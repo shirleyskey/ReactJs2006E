@@ -5,13 +5,1002 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Printgo</title>
-     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-   
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sass/style.css">
 </head>
 
 <body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="header__top--logo">
+                            <a href="">
+                                <img src="images/logo.png" alt="Printgo-logo">
+
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="header__top--menu ">
+                                    <ul class="nav justify-content-center">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle text-uppercase" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                                <span class="icon-layers"></span> Lĩnh Vực</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#"><span class="icon-award"></span>Kinh Doanh</a>
+                                                <a class="dropdown-item" href="#"><span class="icon-coffee"></span>Nhà Hàng</a>
+                                                <a class="dropdown-item" href="#"><span class="icon-slack"></span>Du Lịch</a>
+                                                <a class="dropdown-item" href="#"><span class="icon-inbox"></span>Thời Trang</a>
+                                                <a class="dropdown-item" href="#"><span class="icon-gift"></span>Sự Kiện</a>
+                                                <a class="dropdown-item" href="#"><span class="icon-truck"></span>Cá Nhân</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase" href="#">Chính Sách</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle text-uppercase" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tin Tức</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Kỹ thuật In</a>
+                                                <a class="dropdown-item" href="#">Đồ Họa</a>
+                                                <a class="dropdown-item" href="#">Mỹ Thuật </a>
+                                                <a class="dropdown-item" href="#">Tin tức Printgo</a>
+                                                <a class="dropdown-item" href="#">Khuyến Mãi</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle text-uppercase" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Thiết Kế</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#"><span class="icon-tv"></span>Gói Thiết Kế</a>
+                                                <a class="dropdown-item" href="#"><span class="icon-twitch"></span>Sản Phẩm Thiết Kế</a>
+                                                <a class="dropdown-item" href="#"><span class="icon-target"></span>Đăng Ký Đối Tác</a>
+                                                <a class="dropdown-item" href="#"><span class="icon-speaker"></span>Bộ sưu tập Logo</a>
+
+                                            </div>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="header__top--info">
+                                    <button type="button " class="btn header__top--info--login"><span class="icon-lock"></span>Đăng Nhập</button>
+                                    <button type="button " class="btn header__top--info--language">
+                                        <img src="images/icon/language.jpg" alt="">
+                                    </button>
+                                    <button type="button " class="btn header__top--info--phone"><span class="icon-phone-call"></span><span>0902.486.865</span></button>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="header__end">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="header__end--cate">
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="icon-menu"></span> Danh Mục Sản Phẩm
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <li class=" dropdown-item">
+                                        <a href=""><span class="icon-credit-card"></span>Name Card</a>
+                                    </li>
+                                    <li class=" dropdown-item">
+                                        <a href=""><span class="icon-briefcase"></span>Hộp Giấy</a>
+                                    </li>
+                                    <li class=" dropdown-item">
+                                        <a href=""><span class="icon-gift"></span>Thiệp Mời</a>
+                                    </li>
+                                    <li class=" dropdown-item">
+                                        <a href=""><span class="icon-shopping-bag"></span></span>Túi Giấy</a>
+                                    </li>
+                                    <li class=" dropdown-item">
+                                        <a href=""><span class="icon-gift"></span>Quà Tặng</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-md-9">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="header__end--search">
+                                    <div class="input-group">
+                                        <input type="text" placeholder="Tìm Kiếm Sản Phẩm">
+                                        <button class="btn btn-outline-secondary" type="button">
+                                            <span class="icon-search"></span>
+                                            Tìm Kiếm</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="header__end--card">
+                                    <button type="button" class="btn btn-primary card">
+                                        <span class="icon-shopping-cart"></span>
+                                        Giỏ Hàng</button>
+                                    <button type="button" class="btn btn-primary print">
+                                        <span class="icon-printer"></span>
+                                        In Ngay</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <div id="carouselId" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselId" data-slide-to="1"></li>
+                <li data-target="#carouselId" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active" style=" background-image: url(images/banner/01.jpg);">
+                </div>
+                <div class="carousel-item" style="background-image: url(images/banner/02.png);">
+                </div>
+                <div class="carousel-item" style="background-image: url(images/banner/03.jpg);">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <section class="home__cate">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="home__cate__item" style="background-image: url(images/home-cate/01.jpg);">
+                        <div class="home__cate__item__text">
+                            <h1 class="home__cate__item__text--title">
+                                <span>Lĩnh Vực</span> Kinh doanh</h1>
+                            <p class="home__cate__item__text--des">
+                                Yếu tố quan trọng giúp thành công trong xây dựng hình ảnh cá nhân
+                            </p>
+                            <a href="" class="home__cate__item__text--cta">
+                                 Xem Chi Tiết
+                                 <span class="icon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="home__cate__item" style="background-image: url(images/home-cate/02.jpg);">
+                        <div class="home__cate__item__text">
+                            <h1 class="home__cate__item__text--title">
+                                <span>Lĩnh Vực</span> Sự Kiện</h1>
+                            <p class="home__cate__item__text--des">
+                                Yếu tố quan trọng giúp thành công trong xây dựng hình ảnh cá nhân
+                            </p>
+                            <a href="" class="home__cate__item__text--cta">
+                               Xem Chi Tiết
+                               <span class="icon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="home__cate__item" style="background-image: url(images/home-cate/03.jpg);">
+                        <div class="home__cate__item__text">
+                            <h1 class="home__cate__item__text--title">
+                                <span>Lĩnh Vực</span> Nhà Hàng</h1>
+                            <p class="home__cate__item__text--des">
+                                Yếu tố quan trọng giúp thành công trong xây dựng hình ảnh cá nhân
+                            </p>
+                            <a href="" class="home__cate__item__text--cta">
+                           
+                            Xem Chi Tiết
+                            <span class="icon-chevron-right"></span>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hot__product">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1 class="hot__product__title">Sản Phẩm Hot</h1>
+
+                </div>
+                <div class="col-md-8">
+                    <span class="hot__product__title--item">
+                        <img src="images/icon/icon1.jpg" alt="">
+                        Thư Viện Phong Phú</span>
+                    <span class="hot__product__title--item">
+                        <img src="images/icon/icon1.jpg" alt="">
+                        IN ẤN MỌI LÚC MỌI NƠI</span>
+                    <span class="hot__product__title--item">
+                        <img src="images/icon/icon1.jpg" alt="">
+                        GIÁ THÀNH CẠNH TRANH</span>
+                    <span class="hot__product__title--item">
+                        <a href="">Xem Nhiều Hơn  <img src="images/icon/xemthem.jpg" alt=""></a>
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="hot__product__img"></div>
+
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="hot__product__item">
+                                <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/01.jpg);">
+
+                                </div>
+                                <div class="hot__product__item--name">
+                                    <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                                </div>
+                                <div class="hot__product__item__des">
+                                    <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                                    <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                                    <span class="hot__product__item__des--cate"><span class="icon-feather"></span>Hộp</span>
+
+                                </div>
+                                <div class="hot__product__item--cta">
+                                    <a href="">Giá Chỉ 0đ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hot__product__item">
+                                <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/02.jpg);">
+
+                                </div>
+                                <div class="hot__product__item--name">
+                                    <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                                </div>
+                                <div class="hot__product__item__des">
+                                    <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                                    <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                                    <span class="hot__product__item__des--cate"><span class="icon-feather"></span>Hộp</span>
+
+                                </div>
+                                <div class="hot__product__item--cta">
+                                    <a href="">Giá Chỉ 0đ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hot__product__item">
+                                <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/03.jpg);">
+
+                                </div>
+                                <div class="hot__product__item--name">
+                                    <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                                </div>
+                                <div class="hot__product__item__des">
+                                    <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                                    <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                                    <span class="hot__product__item__des--cate"><span class="icon-feather"></span>Hộp</span>
+
+                                </div>
+                                <div class="hot__product__item--cta">
+                                    <a href="">Giá Chỉ 0đ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hot__product__item">
+                                <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/04.jpg);">
+
+                                </div>
+                                <div class="hot__product__item--name">
+                                    <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                                </div>
+                                <div class="hot__product__item__des">
+                                    <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                                    <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                                    <span class="hot__product__item__des--cate"><span class="icon-feather"></span>Hộp</span>
+
+                                </div>
+                                <div class="hot__product__item--cta">
+                                    <a href="">Giá Chỉ 0đ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hot__product__item">
+                                <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/05.jpg);">
+
+                                </div>
+                                <div class="hot__product__item--name">
+                                    <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                                </div>
+                                <div class="hot__product__item__des">
+                                    <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                                    <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                                    <span class="hot__product__item__des--cate"><span class="icon-feather"></span>Hộp</span>
+
+                                </div>
+                                <div class="hot__product__item--cta">
+                                    <a href="">Giá Chỉ 0đ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hot__product__item">
+                                <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/06.jpg);">
+
+                                </div>
+                                <div class="hot__product__item--name">
+                                    <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                                </div>
+                                <div class="hot__product__item__des">
+                                    <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                                    <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                                    <span class="hot__product__item__des--cate"><span class="icon-feather"></span>Hộp</span>
+
+                                </div>
+                                <div class="hot__product__item--cta">
+                                    <a href="">Giá Chỉ 0đ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hot__product">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1 class="hot__product__title">Sản Phẩm Nổi Bật</h1>
+
+                </div>
+                <div class="col-md-8">
+                    <span class="hot__product__title--item">
+                        <img src="images/icon/icon1.jpg" alt="">
+                        Thư Viện Phong Phú</span>
+                    <span class="hot__product__title--item">
+                        <img src="images/icon/icon1.jpg" alt="">
+                        IN ẤN MỌI LÚC MỌI NƠI</span>
+                    <span class="hot__product__title--item">
+                        <img src="images/icon/icon1.jpg" alt="">
+                        GIÁ THÀNH CẠNH TRANH</span>
+                    <span class="hot__product__title--item">
+                        <a href="">Xem Nhiều Hơn  <img src="images/icon/xemthem.jpg" alt=""></a>
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="hot__product__item">
+                                <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/01.jpg);">
+
+                                </div>
+                                <div class="hot__product__item--name">
+                                    <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                                </div>
+                                <div class="hot__product__item__des">
+                                    <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                                    <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                                    <span class="hot__product__item__des--cate"><span class="icon-feather"></span>Hộp</span>
+
+                                </div>
+                                <div class="hot__product__item--cta">
+                                    <a href="">Giá Chỉ 0đ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hot__product__item">
+                                <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/02.jpg);">
+
+                                </div>
+                                <div class="hot__product__item--name">
+                                    <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                                </div>
+                                <div class="hot__product__item__des">
+                                    <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                                    <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                                    <span class="hot__product__item__des--cate"><span class="icon-feather"></span>Hộp</span>
+
+                                </div>
+                                <div class="hot__product__item--cta">
+                                    <a href="">Giá Chỉ 0đ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hot__product__item">
+                                <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/03.jpg);">
+
+                                </div>
+                                <div class="hot__product__item--name">
+                                    <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                                </div>
+                                <div class="hot__product__item__des">
+                                    <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                                    <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                                    <span class="hot__product__item__des--cate"><span class="icon-feather"></span>Hộp</span>
+
+                                </div>
+                                <div class="hot__product__item--cta">
+                                    <a href="">Giá Chỉ 0đ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hot__product__item">
+                                <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/04.jpg);">
+
+                                </div>
+                                <div class="hot__product__item--name">
+                                    <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                                </div>
+                                <div class="hot__product__item__des">
+                                    <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                                    <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                                    <span class="hot__product__item__des--cate"><span class="icon-feather"></span>Hộp</span>
+
+                                </div>
+                                <div class="hot__product__item--cta">
+                                    <a href="">Giá Chỉ 0đ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hot__product__item">
+                                <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/05.jpg);">
+
+                                </div>
+                                <div class="hot__product__item--name">
+                                    <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                                </div>
+                                <div class="hot__product__item__des">
+                                    <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                                    <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                                    <span class="hot__product__item__des--cate"><span class="icon-feather"></span>Hộp</span>
+
+                                </div>
+                                <div class="hot__product__item--cta">
+                                    <a href="">Giá Chỉ 0đ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hot__product__item">
+                                <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/06.jpg);">
+
+                                </div>
+                                <div class="hot__product__item--name">
+                                    <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                                </div>
+                                <div class="hot__product__item__des">
+                                    <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                                    <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                                    <span class="hot__product__item__des--cate"><span class="icon-feather"></span>Hộp</span>
+
+                                </div>
+                                <div class="hot__product__item--cta">
+                                    <a href="">Giá Chỉ 0đ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hot__product__img"></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product">
+        <div class="container">
+            <div class="row">
+                <div class="button-group filter-button-group" data-filter-group="cate">
+                    <button data-filter="*">All</button>
+                    <button data-filter=".A">A</button>
+                    <button data-filter=".B">B</button>
+                    <button data-filter=".C">C</button>
+                    <button data-filter=".D">D</button>
+                </div>
+            </div>
+            <div class="row grid">
+                <div class="product__item A">
+                    <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/06.jpg);">
+                    </div>
+                    <div class="hot__product__item--name">
+                        <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                    </div>
+                    <div class="hot__product__item__des">
+                        <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                        <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                        <span class="hot__product__item__des--cate"><span class="icon-feather"></span>D</span>
+                    </div>
+                    <div class="hot__product__item--cta">
+                        <a href="">Giá Chỉ 0đ</a>
+                    </div>
+                </div>
+                <div class="product__item B">
+                    <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/05.jpg);">
+                    </div>
+                    <div class="hot__product__item--name">
+                        <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                    </div>
+                    <div class="hot__product__item__des">
+                        <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                        <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                        <span class="hot__product__item__des--cate"><span class="icon-feather"></span>C</span>
+                    </div>
+                    <div class="hot__product__item--cta">
+                        <a href="">Giá Chỉ 0đ</a>
+                    </div>
+                </div>
+                <div class="product__item C">
+                    <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/07.jpg);">
+                    </div>
+                    <div class="hot__product__item--name">
+                        <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                    </div>
+                    <div class="hot__product__item__des">
+                        <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                        <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                        <span class="hot__product__item__des--cate"><span class="icon-feather"></span>B</span>
+                    </div>
+                    <div class="hot__product__item--cta">
+                        <a href="">Giá Chỉ 0đ</a>
+                    </div>
+                </div>
+                <div class="product__item D">
+                    <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/04.jpg);">
+                    </div>
+                    <div class="hot__product__item--name">
+                        <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                    </div>
+                    <div class="hot__product__item__des">
+                        <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                        <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                        <span class="hot__product__item__des--cate"><span class="icon-feather"></span>A</span>
+                    </div>
+                    <div class="hot__product__item--cta">
+                        <a href="">Giá Chỉ 0đ</a>
+                    </div>
+                </div>
+
+                <div class="product__item A">
+                    <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/08.jpg);">
+                    </div>
+                    <div class="hot__product__item--name">
+                        <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                    </div>
+                    <div class="hot__product__item__des">
+                        <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                        <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                        <span class="hot__product__item__des--cate"><span class="icon-feather"></span>D</span>
+                    </div>
+                    <div class="hot__product__item--cta">
+                        <a href="">Giá Chỉ 0đ</a>
+                    </div>
+                </div>
+                <div class="product__item B">
+                    <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/06.jpg);">
+                    </div>
+                    <div class="hot__product__item--name">
+                        <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                    </div>
+                    <div class="hot__product__item__des">
+                        <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                        <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                        <span class="hot__product__item__des--cate"><span class="icon-feather"></span>C</span>
+                    </div>
+                    <div class="hot__product__item--cta">
+                        <a href="">Giá Chỉ 0đ</a>
+                    </div>
+                </div>
+                <div class="product__item C">
+                    <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/05.jpg);">
+                    </div>
+                    <div class="hot__product__item--name">
+                        <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                    </div>
+                    <div class="hot__product__item__des">
+                        <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                        <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                        <span class="hot__product__item__des--cate"><span class="icon-feather"></span>B</span>
+                    </div>
+                    <div class="hot__product__item--cta">
+                        <a href="">Giá Chỉ 0đ</a>
+                    </div>
+                </div>
+                <div class="product__item D">
+                    <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/04.jpg);">
+                    </div>
+                    <div class="hot__product__item--name">
+                        <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                    </div>
+                    <div class="hot__product__item__des">
+                        <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                        <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                        <span class="hot__product__item__des--cate"><span class="icon-feather"></span>A</span>
+                    </div>
+                    <div class="hot__product__item--cta">
+                        <a href="">Giá Chỉ 0đ</a>
+                    </div>
+                </div>
+                <div class="product__item A">
+                    <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/03.jpg);">
+                    </div>
+                    <div class="hot__product__item--name">
+                        <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                    </div>
+                    <div class="hot__product__item__des">
+                        <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                        <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                        <span class="hot__product__item__des--cate"><span class="icon-feather"></span>D</span>
+                    </div>
+                    <div class="hot__product__item--cta">
+                        <a href="">Giá Chỉ 0đ</a>
+                    </div>
+                </div>
+                <div class="product__item B">
+                    <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/02.jpg);">
+                    </div>
+                    <div class="hot__product__item--name">
+                        <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                    </div>
+                    <div class="hot__product__item__des">
+                        <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                        <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                        <span class="hot__product__item__des--cate"><span class="icon-feather"></span>C</span>
+                    </div>
+                    <div class="hot__product__item--cta">
+                        <a href="">Giá Chỉ 0đ</a>
+                    </div>
+                </div>
+                <div class="product__item C">
+                    <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/01.jpg);">
+                    </div>
+                    <div class="hot__product__item--name">
+                        <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                    </div>
+                    <div class="hot__product__item__des">
+                        <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                        <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                        <span class="hot__product__item__des--cate"><span class="icon-feather"></span>B</span>
+                    </div>
+                    <div class="hot__product__item--cta">
+                        <a href="">Giá Chỉ 0đ</a>
+                    </div>
+                </div>
+                <div class="product__item D">
+                    <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/01.jpg);">
+                    </div>
+                    <div class="hot__product__item--name">
+                        <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                    </div>
+                    <div class="hot__product__item__des">
+                        <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                        <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                        <span class="hot__product__item__des--cate"><span class="icon-feather"></span>A</span>
+                    </div>
+                    <div class="hot__product__item--cta">
+                        <a href="">Giá Chỉ 0đ</a>
+                    </div>
+                </div>
+                <div class="product__item A">
+                    <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/02.jpg);">
+                    </div>
+                    <div class="hot__product__item--name">
+                        <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                    </div>
+                    <div class="hot__product__item__des">
+                        <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                        <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                        <span class="hot__product__item__des--cate"><span class="icon-feather"></span>C</span>
+                    </div>
+                    <div class="hot__product__item--cta">
+                        <a href="">Giá Chỉ 0đ</a>
+                    </div>
+                </div>
+                <div class="product__item B">
+                    <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/04.jpg);">
+                    </div>
+                    <div class="hot__product__item--name">
+                        <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                    </div>
+                    <div class="hot__product__item__des">
+                        <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                        <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                        <span class="hot__product__item__des--cate"><span class="icon-feather"></span>B</span>
+                    </div>
+                    <div class="hot__product__item--cta">
+                        <a href="">Giá Chỉ 0đ</a>
+                    </div>
+                </div>
+                <div class="product__item C">
+                    <div class="hot__product__item--img" style="height:100px; background-image: url(images/product/05.jpg);">
+                    </div>
+                    <div class="hot__product__item--name">
+                        <a href="">Hộp giấy đựng 2 bánh trung thu</a>
+                    </div>
+                    <div class="hot__product__item__des">
+                        <span class="hot__product__item__des--like"><span class="icon-heart"></span>11</span>
+                        <span class="hot__product__item__des--view"><span class="icon-eye"></span>23</span>
+                        <span class="hot__product__item__des--cate"><span class="icon-feather"></span>A</span>
+                    </div>
+                    <div class="hot__product__item--cta">
+                        <a href="">Giá Chỉ 0đ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="process" style="height:100px; background-image: url(images/banner-top.png);">
+        <div class="container">
+            <div class="row">
+                <div class="process__tile">
+                    <p class="rocess__title--name">
+                        NỀN TẢNG THIẾT KẾ VÀ IN ẤN SỐ 1 VIỆT NAM IN ẤN DỄ DÀNG HƠN CÙNG PRINTGO
+                    </p>
+                    <h2 class="rocess__title--des">
+                        IN ẤN DỄ DÀNG HƠN CÙNG PRINTGO
+                    </h2>
+                </div>
+                <div class="col-md-6 offset-6">
+                    <ul class="process__detail">
+                        <li class="process__detail__step">
+                            <img src="images/icon/car1.png" alt="">
+                            <p class="process__detail__step--name">1. Chọn mẫu Thiết kế</p>
+                            <p class="process__detail__step--des">Quý khách chọn từ Thư viện Thiết kế mẫu ưng ý, phù hợp với nhu cầu và sở thích</p>
+                        </li>
+                        <li class="process__detail__step">
+                            <img src="images/icon/car2.png" alt="">
+                            <p class="process__detail__step--name">2. Đưa ra yêu cầu in ấn và gia công</p>
+                            <p class="process__detail__step--des">Quý khách chọn số lượng in ấn, công nghệ in và yêu cầu gia công theo mẫu có sẵn</p>
+                        </li>
+                        <li class="process__detail__step">
+                            <img src="images/icon/car3.png" alt="">
+                            <p class="process__detail__step--name">3. Thanh toán</p>
+                            <p class="process__detail__step--des">Quý khách thực hiện đặt hàng và thanh toán, nhận viên Printgo sẽ liên hệ lại ngay để chốt thông tin đặt hàng</p>
+                        </li>
+                        <li class="process__detail__step">
+                            <img src="images/icon/car4.png" alt="">
+                            <p class="process__detail__step--name">4. Nhận hàng tại nhà</p>
+                            <p class="process__detail__step--des">Theo từng gói in ấn Printgo sẽ gửi sản phẩm về tận nhà của Quý khách</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="news">
+        <div class="container">
+            <div class="news__title">
+                <p class="news__title--name">CẬP NHẬT TIN TỨC, XU HƯỚNG THIẾT KẾ</p>
+                <h2 class="news__title--des">CÂU CHUYỆN ĐỒ HỌA</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="news__item">
+                        <div class="news__item--img" style="height:100px; background-image: url(images/product/01.jpg);"></div>
+                        <div class="news__item--date"><span class="icon-clock"></span><span>30/06/2020</span></div>
+                        <div class="news__item--name">
+                            <p>Nhận in hộp đựng phụ kiện điện thoại theo yêu cầu giá tốt trên toàn </p>
+                        </div>
+                        <div class="news__item--des">
+                            <p>Printgo nhận in hộp đựng phụ kiện điện thoại theo yêu cầu giá rẻ trên </p>
+                        </div>
+                        <div class="news__item--cta">
+                            <a href="">Xem Chi Tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="news__item">
+                        <div class="news__item--img" style="height:100px; background-image: url(images/product/01.jpg);"></div>
+                        <div class="news__item--date"><span class="icon-clock"></span><span>30/06/2020</span></div>
+                        <div class="news__item--name">
+                            <p>Nhận in hộp đựng phụ kiện điện thoại theo yêu cầu giá tốt trên toàn </p>
+                        </div>
+                        <div class="news__item--des">
+                            <p>Printgo nhận in hộp đựng phụ kiện điện thoại theo yêu cầu giá rẻ trên </p>
+                        </div>
+                        <div class="news__item--cta">
+                            <a href="">Xem Chi Tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="news__item">
+                        <div class="news__item--img" style="height:100px; background-image: url(images/product/01.jpg);"></div>
+                        <div class="news__item--date"><span class="icon-clock"></span><span>30/06/2020</span></div>
+                        <div class="news__item--name">
+                            <p>Nhận in hộp đựng phụ kiện điện thoại theo yêu cầu giá tốt trên toàn </p>
+                        </div>
+                        <div class="news__item--des">
+                            <p>Printgo nhận in hộp đựng phụ kiện điện thoại theo yêu cầu giá rẻ trên </p>
+                        </div>
+                        <div class="news__item--cta">
+                            <a href="">Xem Chi Tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <li>
+                            <a href="">Tổng hợp 10+ mẫu hộp giấy đựng bánh kẹo độc đáo, ấn </a>
+                            <span>26/06/2020</span>
+
+                        </li>
+                        <li>
+                            <a href="">Tổng hợp 10+ mẫu hộp giấy đựng bánh kẹo độc đáo, ấn </a>
+                            <span>26/06/2020</span>
+
+                        </li>
+                        <li>
+                            <a href="">Tổng hợp 10+ mẫu hộp giấy đựng bánh kẹo độc đáo, ấn </a>
+                            <span>26/06/2020</span>
+
+                        </li>
+                        <li>
+                            <a href="">Tổng hợp 10+ mẫu hộp giấy đựng bánh kẹo độc đáo, ấn </a>
+                            <span>26/06/2020</span>
+
+                        </li>
+                    </ul>
+                    <div class="news__item--cta">
+                        <a href="">Xem Tất Cả</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" style="height:100px; background-image: url(images/footer.jpg);">
+        <div class="container">
+            <div class="row">
+                <h2 class="row__title">NHẬP ĐỊA CHỈ EMAIL CỦA BẠN ĐỂ NHẬN NGAY 50.000 VNĐ</h2>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Email của bạn" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+                    <div class="input-group-append" id="button-addon4">
+                        <button class="btn btn-outline-secondary" type="button">Đăng Ký</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer__address">
+                        <h4 class="footer__address__title">
+                            CHĂM SÓC KHÁCH HÀNG
+                        </h4>
+                        <ul class="footer__address__detail">
+                            <li>
+                                <a href="">Hotline: 1900.633313</a>
+                            </li>
+                            <li>
+                                <a href="">CSKH: 0901.633.313</a>
+                            </li>
+                            <li>
+                                <a href="">Email: sale@printgo.vn</a>
+                            </li>
+                            <li>
+                                <a href="">Hướng dẫn in ấn</a>
+                            </li>
+                            <li>
+                                <a href="">Hướng dẫn thanh toán</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer__address">
+                        <h4 class="footer__address__title">
+                            VỀ PRINTGO
+                        </h4>
+                        <ul class="footer__address__detail">
+                            <li>
+                                <a href="">Giới thiệu Printgo</a>
+                            </li>
+                            <li>
+                                <a href="">Chính sách bản quyền</a>
+                            </li>
+                            <li>
+                                <a href="">Bảo mật thông tin</a>
+                            </li>
+                            <li>
+                                <a href="">Tuyển dụng</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer__address">
+                        <h4 class="footer__address__title">
+                            ĐỐI TÁC
+                        </h4>
+                        <ul class="footer__address__detail">
+                            <li>
+                                <a href="">Vận chuyển</a>
+                            </li>
+                            <li>
+                                <a href="">CSKH: 0901.633.313</a>
+                            </li>
+                            <li>
+                                <a href="">Email: sale@printgo.vn</a>
+                            </li>
+                            <li>
+                                <a href="">Tuyển dụng</a>
+                            </li>
+                            <li>
+                                <a href="">Hướng dẫn thanh toán</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer__address">
+                        <h4 class="footer__address__title">
+                            THEO DÕI PRINTGO
+                        </h4>
+                        <img src="images/icon/gg.png" alt="">
+                        <img src="images/icon/fb.png" alt="">
+                        <img src="images/icon/tw.png" alt="">
+                        <img src="images/icon/gg.png" alt="">
+                    </div>
+                </div>
+
+                <p class="footer__end">
+                    Địa chỉ: Tầng 19, toà nhà HCMCC, 249 A Thuỵ Khuê, Tây Hồ, Hà Nội.
+                </p>
+                <p class="footer__end">
+                    Tổng đài: 1900 633313 - Email : sale@printgo.vn Copyright © Công ty Cổ Phần PRINTGO Việt Nam. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script type="text/javascript " src="node_modules/jquery/dist/jquery.min.js "></script>
+    <script type="text/javascript " src="node_modules/popper.js/dist/popper.min.js "></script>
+    <script type="text/javascript " src="node_modules/bootstrap/dist/js/bootstrap.min.js "></script>
+    <script type="text/javascript " src="node_modules/isotope-layout/dist/isotope.pkgd.min.js"></script>
+    <script type="text/javascript " src="js/main.js "></script>
 
 </body>
+
+</html>
+
+</html>
 
 </html>

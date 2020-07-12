@@ -1,0 +1,30 @@
+{
+    "name": "printgo",
+    "version": "1.0.0",
+    "description": "learn css,learn bootstrap, code theme",
+    "main": "index.js",
+    "dependencies": {
+        "bootstrap": "^4.5.0",
+        "bootstrap-icons": "^1.0.0-alpha5",
+        "isotope-layout": "^3.0.6",
+        "jquery": "^3.5.1",
+        "popper.js": "^1.16.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shirleyskey/ReactJs2006E/tree/master/Printgo"
+    },
+    "keywords": [
+        "learn",
+        "css",
+        "bootstrap",
+        "clone",
+        "printgo"
+    ],
+    "author": "Shi Shi",
+    "license": "ISC"
+}
