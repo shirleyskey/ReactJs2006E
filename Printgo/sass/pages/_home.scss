@@ -1,1 +1,292 @@
 
+.home__cate{
+    margin-bottom: 45px;
+    &__item{
+        height: 240px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        &__text{
+            position: absolute;
+            top: 34px;
+            left: 10px;
+
+            &--title{
+                font-size: 25px;
+                font-weight: 700;
+                color: #ffffff;
+                text-transform: uppercase;
+                border-left: 3px solid #ffffff;
+                padding-left: 10px;
+                span{
+                    display: block;
+                    color: #ffffff;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    line-height: 19px;
+                }
+            }
+            &--des{
+                font-size: 12px;
+                color: #ffffff;
+                padding-left: 10px;
+            }
+            &--cta{
+                background-color: #ffffff;
+                border-radius: 100px;
+                padding: 10px 20px;
+                color: #000000;
+                font-weight: 600;
+                text-transform: uppercase;
+                font-size: 12px;
+            }
+            &--cta:hover{
+                text-decoration: none;
+                color: #000000;
+            }
+         
+        }
+    }
+    &__item:hover::before{
+        content:"";
+        border: 3px solid #ffffff;
+        position: absolute;
+        width: 94%;
+        height: 90%;
+        top: 5%;
+        left: 10px;
+    }
+    
+
+}
+.hot__product{
+    margin-bottom: 50px;
+   
+    &__title{
+        font-size: 26px;
+        font-weight: 800;
+        line-height: 53px;
+        color: #000000;
+        text-transform: uppercase;
+        margin-bottom: 22px;
+        &--item{
+            font-size: 12px;
+            a{
+                color: #000000;
+            }
+           
+        }
+    }
+    &__img{
+        height: 620px;
+        background-size: cover;
+        background-position: center;
+    
+    }
+    &__item{
+        margin-bottom: 30px;
+        &--img{
+            height: 196px;
+            margin-bottom: 15px;
+        }
+        &--name{
+            font-size: 13px;
+            line-height: 18px;
+            color: #000000;
+            font-weight: 700;
+            a{
+                color: #000000;
+            }
+            a:hover {
+                color: #3cbeb3;
+                text-decoration: none;
+            }
+        }
+        
+        &__des{
+            margin-bottom: 15px;
+            &--like{
+               
+                    color: #000000;
+                    font-size: 12px;
+                    font-weight: 400;
+                    span{
+                        color: #FD5B4E;
+                        margin-right: 7px;
+                    }
+                
+            }
+            &--view{
+               
+                color: #000000;
+                font-size: 12px;
+                font-weight: 400;
+                span{
+                   
+                    margin-right: 7px;
+                }
+            
+        }
+        &--cate{
+               
+            color: #FD5B4E;
+            font-size: 12px;
+            font-weight: 400;
+            span{
+                color: #000000;
+                margin-right: 7px;
+            }
+        }
+        }
+        &--cta{
+            a{
+                width: 100%;
+                border:1px solid #00000080;
+                font-size: 13px;
+                display: block;
+                border-radius: 100px;
+                padding: 8px 15px;
+                color: #000000;
+                transition: all .3s ease-in;
+                text-align: center;
+            }
+            a:hover{
+                text-decoration: none;
+                background-color: #fd5b4e;
+            }
+        }
+    }
+}
+.product{
+    margin-bottom: 66px;
+    .button-group{
+        button{
+            font-size: 12px;
+            line-height: 19px;
+            text-transform: uppercase;
+            color: #000000;
+            border: none;
+            background-color: transparent;
+            padding: 10px 15px;
+        }
+        button:active{
+            border: none;
+        }
+        button:visited{
+            border: none;
+            border-bottom: 2px solid #30CDBA;
+        }
+        button:focus{
+            border: transparent;
+            border-bottom: 2px solid #30CDBA;
+        }
+        margin-bottom: 20px;
+    }
+    &__item{
+        width: 20%;
+        padding-left: 0px;
+        padding-right: 15px;
+        margin-bottom: 35px;
+        &--img{
+            height: 195px;
+        }
+    }
+}
+.process{
+    background-size: cover;
+    background-position: center;
+    padding-top: 93px;
+    padding-bottom: 93px;
+    margin-bottom: 58px;
+    &__title{
+        width: 100%;
+        text-align: center;
+        &--name{
+            
+
+        }
+    }
+    &__detail{
+        list-style: none;
+        &__step{
+            position: relative;
+            margin-bottom: 30px;
+            img{
+                position: absolute;
+                left: -80px;
+            }
+            &--name{
+                font-size: 14px;
+                display: inline-block;
+            }
+            &--des{
+                font-size: 14px;
+               
+
+            }
+
+        }
+    }
+}
+.news{
+    margin-bottom: 65px;
+  
+    &__title{
+        text-align: center;
+        margin-bottom: 46px;
+    }
+    &__item{
+        background-color: #F7F6FA;
+        position: relative;
+        padding-bottom: 20px;
+        &--img{
+            height: 187px;
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 30px;
+        }
+        &--date{
+            margin-bottom: 15px;
+            font-size: 12px;
+            padding-left: 20px;
+        }
+        &--name{
+            p{
+                font-size: 13px;
+                padding-left: 20px;
+            }
+           
+        }
+        &--des{
+            p{
+                font-size: 13px;
+                padding-left: 20px;
+            }
+        }
+        &--cta{
+            position: absolute;
+            right: 0px;
+            background-color: #30CDBA;
+            padding: 10px 15px;
+            margin-bottom: -5px;
+        }
+    }
+    ul{
+        list-style: none;
+        background-color: #F7F6FA;
+        li{
+            padding-top: 30px;
+            a{
+                font-size: 13px;
+                margin-bottom: 23px;
+                color: #000000;
+                font-weight: 600;
+            }
+            span{
+                font-size: 13px;
+            }
+        }
+    }
+}

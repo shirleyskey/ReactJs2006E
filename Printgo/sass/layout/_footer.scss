@@ -1,0 +1,92 @@
+.footer{
+    height: 605px;
+    padding-top: 35px;
+    &__title{
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 47px;
+    }
+    .input-group{
+        margin: auto;
+        width: 570px;
+        position: relative;
+        border: none;
+        margin-bottom: 105px;
+        input{
+            width: 100%;
+            background-color: #1C2834;
+            border-radius: 1000px;
+            font-size: 13px;
+            height: 50px;
+
+        }
+        button{
+            position: absolute;
+            right: -20px;
+            background-color: #FFDB4A;
+            border-radius: 1000px;
+            height: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: #000000;
+            font-weight: 700;
+            text-transform: uppercase;
+            span{
+                margin-right: 10px;
+            }
+        }
+    }
+    &__address{
+        border-right: 1px solid gray;;
+        &__title{
+            margin-bottom: 25px;
+            font-size: 14px;
+            color: #ffffff;
+            line-height: 53px;
+            text-transform: uppercase;
+            font-weight: 600;
+            text-align: center;
+        }
+        ul{
+            li{
+                margin-bottom: 10px;
+                text-align: center;
+                a{
+                    line-height: 17px;
+                    font-size: 13px;
+                    color: rgb(238, 238, 238);
+                    font-weight: 400;
+                }
+            }
+        }
+        
+    }
+   
+     
+        &__end--title{
+            width: 100vw;
+            border-top: 1px solid gray;
+            text-align: center;
+            font-size: 13px;
+            color: #ffffff;
+            font-weight: 400;
+            line-height: 19px;
+            padding-top: 15px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        &__end--des{
+            width: 100vw;
+            text-align: center;
+            font-size: 14px;
+            color: #ffffff;
+            font-weight: 400;
+            line-height: 19px;
+        }
+   
+}

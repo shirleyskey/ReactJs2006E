@@ -11,4 +11,9 @@ $(document).ready(function() {
         $grid.isotope({ filter: filterValue });
         console.log("hihi");
     });
+
+    //dropdown menu
+    $('.menubar').on('click', function(){
+        $('.drop_menubar').toggleClass('show');
+    })
 });
